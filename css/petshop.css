@@ -1,0 +1,42 @@
+/* Tags Gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: url(../img/fundo-topo.jpg);
+    text-align: center;
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+nav {
+    padding: 15px 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #6dd432;
+}
+/* Especificos */
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
