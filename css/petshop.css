@@ -40,3 +40,59 @@ nav a:hover{
     padding-right: 0;
     margin-right: 0;
 }
+#produto, .flex-container{
+    margin-top: 40px;
+}
+/* Grupos de elementos diferentes (.classe)*/
+.fundo-verde {
+    background-color: #bdff9c;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-container .col{
+    width: 430px;
+}
+.produto {
+    width: 235px;
+
+}
+.produto figure {
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    /* superior - direita - inferior - esquerda */
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img{
+
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+
+.btn-pata {
+    border: 1px solid #91e467;
+    background-color: #d2fbdd;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
