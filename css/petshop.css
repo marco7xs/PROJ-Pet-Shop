@@ -76,7 +76,6 @@ nav a:hover{
     height: 160px;
     line-height: 160px;
 }
-
 .produto figure img{
 
 }
@@ -95,4 +94,20 @@ nav a:hover{
     color: #000;
     border-radius: 5px;
     cursor: pointer;
+}
+form{
+    width: 380px;
+    /* border: 1px solid #c4c4c4; */
+}
+form input,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #6DD432;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+iframe{
+    width: 100%;
 }
